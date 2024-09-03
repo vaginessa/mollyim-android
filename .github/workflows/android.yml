@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
     - name: Download release APKs
-      uses: actions/download-artifact@v1
+      uses: actions/download-artifact@v4.1.7
       with:
         name: molly-apk
     - name: Get the version
